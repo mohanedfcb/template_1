@@ -1,0 +1,33 @@
+/* Footer Section */
+.footer{
+    background-color: rgb(16, 6, 41);
+    text-align: center;
+    padding: 60px 0;
+}
+.footer-list{
+    list-style-type: none;
+    margin: 20px 0;
+}
+.footer-list li{
+    display: inline-block;
+}
+.footer a{
+    text-decoration: none;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: var(--maincolor) ;
+    color: white;
+    padding: 18px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.footer .cpy{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #999;
+    margin-top: 20px;
+}
+.cpy span{
+    color: var(--maincolor);
+}
